@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "gapplefinder",
+  "version": "${version}",
+  "name": "Gapplefinder",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/gapplefinder/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.terriblefriends.gapplefinder.GappleFinderClient"
+    ]
+  },
+  "mixins": [
+    "gapplefinder.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.9",
+    "fabric": "*",
+    "minecraft": "1.19.X"
+  },
+  "accessWidener": "gapple.aw"
+}
